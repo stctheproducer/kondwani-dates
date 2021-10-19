@@ -5,6 +5,7 @@ import Pages from 'vite-plugin-pages'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
+import { HeadlessUiResolver } from 'unplugin-vue-components/resolvers'
 import WindiCSS from 'vite-plugin-windicss'
 import AutoImport from 'unplugin-auto-import/vite'
 
@@ -33,6 +34,7 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-components
     Components({
       resolvers: [
+        HeadlessUiResolver(),
         // auto import icons
         // https://github.com/antfu/vite-plugin-icons
         IconsResolver({

@@ -3,11 +3,13 @@ lockfileVersion: 5.3
 specifiers:
   '@antfu/eslint-config': ^0.9.0
   '@iconify-json/carbon': ^1.0.3
+  '@types/luxon': ^2.0.5
   '@types/node': ^16.10.2
   '@vitejs/plugin-vue': ^1.9.2
   '@vueuse/core': ^6.5.3
   cross-env: ^7.0.3
   eslint: ^7.32.0
+  luxon: ^2.0.2
   pnpm: ^6.16.0
   typescript: ^4.4.3
   unplugin-auto-import: ^0.4.10
@@ -22,6 +24,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 6.5.3_vue@3.2.19
+  luxon: 2.0.2
   vue: 3.2.19
   vue-demi: 0.11.4_vue@3.2.19
   vue-router: 4.0.11_vue@3.2.19
@@ -29,6 +32,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.9.0_eslint@7.32.0+typescript@4.4.3
   '@iconify-json/carbon': 1.0.3
+  '@types/luxon': 2.0.5
   '@types/node': 16.10.2
   '@vitejs/plugin-vue': 1.9.2_vite@2.6.2
   cross-env: 7.0.3
@@ -465,6 +469,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
+    dev: true
+
+  /@types/luxon/2.0.5:
+    resolution: {integrity: sha512-GKrG5v16BOs9XGpouu33hOkAFaiSDi3ZaDXG9F2yAoyzHRBtksZnI60VWY5aM/yAENCccBejrxw8jDY+9OVlxw==}
     dev: true
 
   /@types/node/16.10.2:
@@ -2359,6 +2367,10 @@ packages:
     dependencies:
       yallist: 4.0.0
     dev: true
+
+  /luxon/2.0.2:
+    resolution: {integrity: sha512-ZRioYLCgRHrtTORaZX1mx+jtxKtKuI5ZDvHNAmqpUzGqSrR+tL4FVLn/CUGMA3h0+AKD1MAxGI5GnCqR5txNqg==}
+    dev: false
 
   /magic-string/0.25.7:
     resolution: {integrity: sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==}
